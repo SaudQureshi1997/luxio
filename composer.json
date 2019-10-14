@@ -1,4 +1,15 @@
 {
+    "name": "elphis/elphis",
+    "authors": [
+        {
+            "name": "Akshay Khale",
+            "email": "akshaykhale@gmail.com"
+        },
+        {
+            "name": "Saud Qureshi",
+            "email": "saudken52@gmail.com"
+        }
+    ],
     "require": {
         "vlucas/phpdotenv": "^3.4",
         "elphis/logger": "@dev",

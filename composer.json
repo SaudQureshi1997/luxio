@@ -1,0 +1,54 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^3.4",
+        "elphis/logger": "@dev",
+        "elphis/validator": "@dev",
+        "elphis/hotreloader": "@dev",
+        "elphis/framework": "@dev",
+        "elphis/http-message": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "repositories": [{
+            "type": "path",
+            "url": "/home/saud/Projects/Open Source/elphis/framework",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "/home/saud/Projects/Open Source/elphis/http-message",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "/home/saud/Projects/Open Source/elphis/logger",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "/home/saud/Projects/Open Source/elphis/hotreloader",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "/home/saud/Projects/Open Source/elphis/validator",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    }
+}

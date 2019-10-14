@@ -1,0 +1,5 @@
+composer install
+composer update
+composer du -o
+cp .env.example .env
+php public/index.php

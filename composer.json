@@ -1,5 +1,7 @@
 {
     "name": "elphis/elphis",
+    "description": "Swoole Based Micro Framework inspired by laravel.",
+    "type": "framework",
     "authors": [
         {
             "name": "Akshay Khale",
